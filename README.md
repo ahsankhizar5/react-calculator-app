@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Yo, Check Out My React Calculator App! 🧮
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hey there! This is my solution for a peer-reviewed assignment in my React course. It’s a slick calculator app built with React that handles addition, subtraction, multiplication, and division. Ready to crunch some numbers? Let’s roll!
 
-## Available Scripts
+👉 **Check it out here**: [https://github.com/ahsankhizar5/react-calculator-app.git](https://github.com/ahsankhizar5/react-calculator-app.git) *(Replace with your GitHub Pages link after deploying)*
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## What’s This Thing Do? 🤔
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Displays a clean calculator interface with a display screen and buttons.
+- Handles basic math: addition (+), subtraction (−), multiplication (×), and division (÷).
+- Includes a clear button (C) to reset everything.
+- Shows “Error” if you try to divide by zero (no crashing here!).
+- Responsive grid layout for buttons, styled with CSS.
+- Built with React for dynamic state management and smooth interactions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## How to Run It 🚀
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Wanna play with it? Here’s the vibe:
 
-### `npm run build`
+1. Grab the code:
+   ```bash
+   git clone https://github.com/your-username/react-calculator-app.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Jump into the folder:
+   ```bash
+   cd react-calculator-app
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Fire it up:
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+5. Open Chrome, hit `http://localhost:3000`, and:
+   - Click numbers (0–9) to build your input.
+   - Hit an operator (+, −, ×, ÷) to set up the calculation.
+   - Press `=` to get the result.
+   - Use `C` to start fresh.
+   - Try something like `5 × 3 =` and watch the magic!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## What’s Inside? 📂
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Just the essentials:
+- `index.html`: The main HTML file in `public/`.
+- `src/App.js`: The React component with all the calculator logic.
+- `src/App.css`: Custom styles for the calculator’s look.
+- `package.json`: Dependencies and scripts.
+- `.gitignore`: Keeps `node_modules` and junk out.
+- `README.md`: This awesome guide you’re reading!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Tools I Used 🛠️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **React**: For building the interactive UI.
+- **JavaScript (ES6)**: Powers the math and state logic.
+- **CSS3**: Styles the buttons and display with a clean grid.
+- **Create React App**: Sets up the project with zero hassle.
+- **Node.js/NPM**: Manages dependencies and runs the app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Wanna Add Something Cool? 😄
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Fork my repo on GitHub.
+2. Make a new branch:
+   ```bash
+   git checkout -b your-cool-idea
+   ```
+3. Add your changes and commit:
+   ```bash
+   git add .
+   git commit -m "Added something dope"
+   ```
+4. Push it and send me a pull request:
+   ```bash
+   git push origin your-cool-idea
+   ```
 
-### Analyzing the Bundle Size
+Ideas to spice it up:
+- Add a decimal point button.
+- Support keyboard input.
+- Save calculation history.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Free to Use! 📜
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+It’s under the MIT License, so go wild—use, tweak, or share it.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Like It? Drop a Star! 🌟
 
-### Deployment
+If you dig this or it helped with your own project, smack that ⭐ on my GitHub repo. It’s like a high-five for my code!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> 💬 *“Calculate, code, celebrate!”* — Me, definitely
