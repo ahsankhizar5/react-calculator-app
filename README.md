@@ -2,7 +2,7 @@
 
 Hey there! This is my solution for a peer-reviewed assignment in my React course. It’s a slick calculator app built with React that handles addition, subtraction, multiplication, and division. Ready to crunch some numbers? Let’s roll!
 
-👉 **Check it out here**: [https://github.com/ahsankhizar5/react-calculator-app.git](https://github.com/ahsankhizar5/react-calculator-app.git) *(Replace with your GitHub Pages link after deploying)*
+👉 **Check it out here**: [https://github.com/ahsankhizar5/react-calculator-app.git](https://github.com/ahsankhizar5/react-calculator-app.git)
 
 ---
 
